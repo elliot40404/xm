@@ -1,0 +1,24 @@
+{
+  "name": "xm",
+  "version": "0.1.0",
+  "description": "Create mock servers from a json file on the fly",
+  "main": "./index.js",
+  "type": "commonjs",
+  "bin": {
+    "xm": "index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Elliot40404",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
