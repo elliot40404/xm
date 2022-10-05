@@ -28,6 +28,9 @@ if (!Array.isArray(routes) || routes.length === 0) {
 }
 
 // TODO: add worker threads to handle server on a child process and hot reload when config file changes
+// TODO: add file validation
+// TODO: add Basic auth/Auth Header/API key Support
+// TODO: add separate file for routes
 
 app.all('*', (req, res) => {
     try {
