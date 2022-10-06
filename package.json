@@ -1,5 +1,5 @@
 {
-  "name": "xm",
+  "name": "@elliot40404/xm",
   "version": "0.1.0",
   "description": "Create mock servers from a json file on the fly",
   "main": "./index.js",
